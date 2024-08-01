@@ -27,7 +27,7 @@ jobs:
         run: yarn run build
 
       - name: Generate Deployment Package
-        run: zip -r app-build.zip dist Procfile
+        run: zip -r app-build.zip node_modules dist Procfile
 
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
