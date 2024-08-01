@@ -1,0 +1,38 @@
+# Estrutura do Projeto
+- src
+  - auth
+    - auth.controller.spec.ts
+    - auth.controller.ts
+    - auth.module.ts
+    - auth.service.spec.ts
+    - auth.service.ts
+    - jwt-auth.guard.ts
+    - jwt.strategy.ts
+  - user
+    - DTO
+      - create-user.dto.ts
+      - login-user.dto.ts
+      - update-status.dto.ts
+    - user.controller.spec.ts
+    - user.controller.ts
+    - user.entity.ts
+    - user.module.ts
+    - user.repository.ts
+    - user.service.spec.ts
+    - user.service.ts
+  - app.controller.spec.ts
+  - app.controller.ts
+  - app.module.ts
+  - main.ts
+- .env
+- .eslintrc.js
+- .gitignore
+- .prettierrc
+- collections.json
+- estrutura_projeto.txt
+- export-tree.ps1
+- package.json
+- README.md
+- tsconfig.build.json
+- tsconfig.json
+- yarn.lock
