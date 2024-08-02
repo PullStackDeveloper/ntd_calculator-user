@@ -20,7 +20,6 @@
     - user.repository.ts
     - user.service.spec.ts
     - user.service.ts
-  - app.controller.spec.ts
   - app.controller.ts
   - app.module.ts
   - main.ts
@@ -31,7 +30,9 @@
 - collections.json
 - estrutura_projeto.txt
 - export-tree.ps1
+- nest-cli.json
 - package.json
+- Procfile
 - README.md
 - tsconfig.build.json
 - tsconfig.json
